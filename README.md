@@ -5,7 +5,7 @@ A interface é construída com **HTML**, **CSS** e **Vite**, e a API é respons�
 
 ---
 
-## 📌 Tecnologias Utilizadas
+##  Tecnologias Utilizadas:
 
 ### Front-end:
 - [React](https://reactjs.org/)
@@ -20,7 +20,7 @@ A interface é construída com **HTML**, **CSS** e **Vite**, e a API é respons�
 
 
 
-## 🚀 Funcionalidades
+##Funcionalidades:
 
 - Adicionar itens à lista de compras 📝
 - Listar todos os itens 
