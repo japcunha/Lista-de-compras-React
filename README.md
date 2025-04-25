@@ -16,7 +16,6 @@ A interface é construída com **HTML**, **CSS** e **Vite**, e a API é respons�
 ### Back-end:
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
-- Banco de dados (opcional: pode ser MongoDB, SQLite ou outro)
 
 
 
