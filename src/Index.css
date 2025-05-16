@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a5bacf;
+  background-image: url();
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+}
+
+.Container { 
+  display: flex;
+  flex-direction: column;     
+  align-items: center;         
+  justify-content: center; 
+  margin-top: 100px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: calc(100% - 100px);
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.AddButton {
+  background-color: #3eb159;
+  color: white;
+}
+
+.AddButton:hover {
+  background-color: #3aa151;
+}
+
+.TrashButton {
+  background-color: #bf2d3c;
+  color: white;
+}
+
+.TrashButton:hover {
+  background-color: #ab1e2c;
+}
+
+.Product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f3f5;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px
+}
