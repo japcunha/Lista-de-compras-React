@@ -2,7 +2,7 @@
   "name": "project-1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://japcunha.github.io/Lista-de-compras-React/",
+  "homepage": "https://github.com/japcunha/Lista-de-compras-React.git",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,7 +16,9 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled-components": "^6.1.13",
-    "uuid": "^10.0.0"
+    "uuid": "^10.0.0",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

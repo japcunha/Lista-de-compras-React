@@ -41,8 +41,8 @@ export default function Home() {
         <AddButton className="AddButton" onClick={cliqueiNoBotao}>
           Adicionar
         </AddButton>
-
-        <p>lista:</p>
+         <p>lista:</p>
+      <div className="lista">
         {produtos.map((produto) => (
           <Product className="Product" key={produto.id}>
             <p>{produto.nome}</p>
@@ -54,6 +54,7 @@ export default function Home() {
             </TrashButton>
           </Product>
         ))}
+        </div>
       </div>
     </>
   );
