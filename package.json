@@ -2,7 +2,7 @@
   "name": "project-1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/japcunha/Lista-de-compras-React",
+  "homepage": "https://japcunha.github.io/Lista-de-compras-React/",
   "type": "module",
   "scripts": {
     "dev": "vite",
